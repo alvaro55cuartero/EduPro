@@ -25,7 +25,7 @@ function Shader(gl, vertexFile, fragmentFile) {
 		
 		
 	gl.linkProgram(this.programID);
-	gl.validateProgram(this.programID);
+	//gl.validateProgram(this.programID);
 		
  	if (!gl.getProgramParameter(this.programID, gl.LINK_STATUS)) {
     	alert('Unable to initialize the shader program: ' + gl.getProgramInfoLog(shaderProgram));

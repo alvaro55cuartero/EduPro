@@ -50,7 +50,7 @@ function frame() {
   tick();
   render();
   console.log("frame");
-  setTimeout(frame, 500);
+  //setTimeout(frame, 500);
 }
 
 
